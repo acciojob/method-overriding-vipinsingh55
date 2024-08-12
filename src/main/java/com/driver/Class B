@@ -1,5 +1,9 @@
 // Task 2
 public class B extends A {
     // No need to override meth here yet; this is just the definition of class B extending A
+@Override
+    public String meth() {
+        return "Method is overridden in Extended class B";
+    }
 }
 
